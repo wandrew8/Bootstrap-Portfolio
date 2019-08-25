@@ -1,0 +1,77 @@
+/* Body Styling */
+
+body {
+    Font-family: Arial', 'Helvetica Neue, Helvetica, sans-serif;
+}
+
+span, h2, h3 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+
+
+/* Header and Navigation */
+
+header {
+    border-bottom: 2px solid #cccccc;
+}
+
+span {
+    font-size: 2rem;
+    padding: 0 2%;
+}
+
+.span {
+    background-color: #4aaaa5;
+    text-align: center;
+}
+
+.navbar-brand {
+    
+    height: 2em;
+    font-size: 3rem;
+    color: white;
+    flex-wrap: wrap;
+    padding: auto 1rem;
+    margin-left: 1rem;
+}
+
+.nav {
+    justify-content: flex-end;
+}
+
+.nav-link { 
+    height: 2em;
+    color: #cccccc;
+    margin: 20px auto;
+    font-size: 1.4rem;
+    padding: 20px;
+
+}
+
+ul.navigation {
+    height: 100%;
+}
+
+/* Footer */
+
+footer {
+    height: 5em;
+    position: absolute;
+    bottom: 0;
+    background-color: #444;
+    border-top: 5px solid #4aaaa5;
+}
+
+.footer {
+    font-size: 1rem;
+}
+
+
+/* Media Query */
+
+@media screen and (min-width: 768px) {
+    .nav {
+        justify-content: center;
+    }
+  }
