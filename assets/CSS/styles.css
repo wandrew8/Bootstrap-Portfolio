@@ -21,6 +21,10 @@ span {
     padding: 0 2%;
 }
 
+a:hover {
+    color: #4aaaa5;
+}
+
 .span {
     background-color: #4aaaa5;
     text-align: center;
@@ -53,12 +57,57 @@ ul.navigation {
     height: 100%;
 }
 
+/* Main Content */
+
+h2 {
+    color: #4aaaa5;
+    padding: 1.5% 0;
+    font-size: 2.5rem;
+}
+
+p {
+    line-height: 1.8em;
+}
+
+.profile-pic {
+    width: 25%;
+    height: auto;
+    padding-right: 1.5%;
+    padding-bottom: 1.5%;
+}
+
+.main-container {
+    margin: 2% auto;
+}
+
+.background-image {
+    background-image: url("../images/background.png");
+}
+
+/* Portfolio Styling */
+
+h5 {
+    background-color: #4aaaa5;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 1%;
+    font-size: 2vw;
+}
+
+.card {
+    width: 25%;
+    height: auto;
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
 /* Footer */
 
 footer {
     height: 5em;
     position: absolute;
-    bottom: 0;
     background-color: #444;
     border-top: 5px solid #4aaaa5;
 }
@@ -70,7 +119,7 @@ footer {
 
 /* Media Query */
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     .nav {
         justify-content: center;
     }
