@@ -16,11 +16,6 @@ header {
     border-bottom: 2px solid #cccccc;
 }
 
-span {
-    font-size: 2rem;
-    padding: 0 2%;
-}
-
 a:hover {
     color: #4aaaa5;
 }
@@ -31,12 +26,8 @@ a:hover {
 }
 
 .navbar-brand {
-    
     height: 2em;
-    font-size: 3rem;
-    color: white;
-    flex-wrap: wrap;
-    padding: auto 1rem;
+    font-size: 3em;
     margin-left: 1rem;
 }
 
@@ -51,10 +42,6 @@ a:hover {
     font-size: 1.4rem;
     padding: 20px;
 
-}
-
-ul.navigation {
-    height: 100%;
 }
 
 /* Main Content */
@@ -88,19 +75,18 @@ p {
 
 h5 {
     background-color: #4aaaa5;
-    width: 100%;
     text-align: center;
-    margin: 0;
-    padding: 1%;
-    font-size: 2vw;
+    padding: 3%;
 }
 
 .card {
-    width: 25%;
-    height: auto;
     float: left;
     margin-right: 2%;
     margin-bottom: 2%;
+}
+
+.card:hover {
+    opacity: 0.5;
 }
 
 /* Footer */
