@@ -17,11 +17,11 @@ header {
 }
 
 a:hover {
-    color: #4aaaa5;
+    color: #1B9CFC;
 }
 
 .span {
-    background-color: #4aaaa5;
+    background: linear-gradient(45deg, #1B9CFC, #25CCF7);
     text-align: center;
 }
 
@@ -44,10 +44,11 @@ a:hover {
 
 }
 
+
 /* Main Content */
 
 h2 {
-    color: #4aaaa5;
+    color: #1B9CFC;
     padding: 1.5% 0;
     font-size: 2.5rem;
 }
@@ -71,10 +72,13 @@ p {
     background-image: url("../images/background.png");
 }
 
+.row {
+    margin: 0px;
+}
 /* Portfolio Styling */
 
 h5 {
-    background-color: #4aaaa5;
+    background: linear-gradient(45deg, #1B9CFC, #25CCF7);
     text-align: center;
     padding: 3%;
 }
@@ -83,6 +87,7 @@ h5 {
     float: left;
     margin-right: 2%;
     margin-bottom: 2%;
+    box-shadow: 8px 8px 4px #a4b0be;
 }
 
 .card:hover {
@@ -95,7 +100,7 @@ footer {
     height: 5em;
     position: absolute;
     background-color: #444;
-    border-top: 5px solid #4aaaa5;
+    border-top: 5px solid #1B9CFC;
 }
 
 .footer {
