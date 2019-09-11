@@ -68,6 +68,10 @@ p {
     margin: 2% auto;
 }
 
+.main-content {
+    padding: 0px;
+}
+
 .background-image {
     background-image: url("../images/background.png");
 }
@@ -81,6 +85,11 @@ h5 {
     background: linear-gradient(45deg, #1B9CFC, #25CCF7);
     text-align: center;
     padding: 3%;
+}
+
+.card-img-overlay {
+    padding: 0px;
+    top: 75%;
 }
 
 .card {
